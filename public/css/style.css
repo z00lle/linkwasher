@@ -1,0 +1,154 @@
+body {
+	font-family: georgia, serif;
+	margin: 0px;
+	background: url('../images/back.png');
+	color: #fff;
+}
+
+a:link {
+	text-decoration: none; 
+	color: #fff;	
+}
+
+a:visited {
+	text-decoration: none; 
+	color: #fff;
+}
+
+a:active {
+	text-decoration: none; 
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: none; 
+	color: #fff;
+}
+
+a img {
+	border: none;
+}
+
+
+header {
+	font-size: 50px;
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	height: 129px;
+	text-shadow: 3px 3px 0px #302926;
+}
+
+footer {
+	font-size: 12px;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 35px;
+	background: url('../images/footer.png');
+	color: #fff;
+	padding-bottom: 5px;
+	padding-top: 30px;
+	text-shadow: 2px 2px 0px #302926;
+}
+
+#header {
+	padding-top: 17px;
+	width: 100%;
+	height: 84px;
+	background: url('../images/header.png');
+}
+
+#logo {
+	position:absolute;
+	left: 10%;
+}
+
+#container {
+	margin: auto;
+	margin-top: 100px;
+	text-align: center;
+	font-size: 30px;
+	color: rgb(83,71,65);
+	text-shadow: 2px 2px 0px #a89749;
+}
+
+#shrunk {
+	margin: auto;
+	margin-top: 60px;
+	text-align: center;
+	font-size: 30px;
+	color: rgb(83,71,65);
+	text-shadow: 2px 2px 0px #a89749;
+}
+
+.url {
+	text-align: center;
+	width: 500px;
+	border: 3px solid rgb(83,71,65);
+	font-family: georgia, serif;
+	font-size: 40px;
+	box-shadow: 3px 3px 0px #a89749;
+}
+
+.button {
+	border: 3px solid #302926;
+	font-family: georgia, serif;
+	font-size: 40px;
+	width: 140px;
+	height: 54px;
+	color: #fff;
+	background: url('../images/hf.png');
+	box-shadow: 3px 3px 0px #a89749;
+}
+
+.button:hover {
+	background: #302926;
+	box-shadow: 2px 2px 0px #a89749;
+}
+
+#copy-button {
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 5px;
+	text-shadow: none;
+	border: 3px solid #302926;
+	font-family: georgia, serif;
+	font-size: 40px;
+	height: 54px;
+	color: #fff;
+	background: url('../images/hf.png');
+	box-shadow: 3px 3px 0px #a89749;
+}
+
+#copy-button:hover {
+	background: #302926;
+	box-shadow: 2px 2px 0px #a89749;
+}
+
+#html5 {
+	z-index: 100;
+	position: absolute;
+	bottom: 1px;
+	right: 20px;
+}
+
+.heart {
+	color: rgb(237,28,36);
+}
+
+.hearttext {
+	width: 50px;
+	position: absolute;
+	bottom: 11px;
+	right: 25px;
+	text-shadow: 2px 2px 0px #302926;
+}
+
+.heartend {
+	position: absolute;
+	bottom: 11px;
+	right: -10px;
+	text-shadow: 2px 2px 0px #302926;
+}

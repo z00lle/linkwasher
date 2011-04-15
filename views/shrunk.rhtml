@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Link Washer</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.zclip.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$("#copy-button").zclip({
+		    path: "js/ZeroClipboard.swf",
+		    copy: function(){
+		    	return $('#shrunkenurl').val();
+		    }
+		});
+	});
+	</script>
+</head>
+<body>
+	<header>
+		<div id="logo"><a href="/"><img src="images/logo.png"/></a></div>
+		<div id="header"><a href="/">Link Washer</a></div>
+	</header>
+	<div id="shrunk"> 
+		<label>Before washing:</label><br/>
+		<input name="originalurl" class="url" disabled="disabled" value=<%=  @originalni_link %>><br/><br/>
+		<label>After washing:</label><br/>
+<input name="shrunkenurl" id="shrunkenurl" class="url" disabled="disabled" value=<%= env['HTTP_REFERER'] + @dobio_link.washin %>><br/><br/>
+		<a href="#" id="copy-button">Copy to clipboard</a>
+	</div>
+	<div id="html5"><div class="hearttext">We <span class="heart">&#9829;</span> </div><a href="http://validator.w3.org/check?uri=referer"><img src="images/html5.png"/></a> <div class="heartend">!</div></div>
+	<footer>&copy; 2011 by Zoran Mirolović<br/>design by Dino Paškvan</footer>
+</body>
+</html>
